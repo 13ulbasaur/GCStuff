@@ -1,0 +1,34 @@
+[
+    {
+        "name": "strawberry fields forever",
+        "colour": "strawberry"
+    },
+    {
+        "name": "disco fever",
+        "colour": "disco"
+    },
+    {
+        "name": "electric blue",
+        "colour": "electric"
+    },
+    {
+        "name": "fire, fire, your pants on fire",
+        "colour": "fire"
+    },
+    {
+        "name": "scritchy sketchy",
+        "colour": "sketch"
+    },
+    {
+        "name": "lost desert",
+        "colour": "desert"
+    },
+    {
+        "name": "mystery island",
+        "colour": "island"
+    },
+    {
+        "name": "its not a phase, mom!",
+        "colour": "edgy"
+    }
+]
