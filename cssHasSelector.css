@@ -1,13 +1,27 @@
-#galleryContent:has(> #gallery_items > .gallery_item > img:hover) > #galleryDesc > #galleryTooltip{
+/* Tooltip stuff */
+/* #galleryContent:has(> #gallery_items > .gallery_item > img:hover) > #galleryDesc > #galleryTooltip{
   
-  visibility: visible;
-  opacity: 1;
-} 
-#galleryContent:has(> #gallery_items > .gallery_item > img[src="https://grundoscafe.b-cdn.net/items/isl_petpet1.gif"]:hover) > #galleryDesc > #galleryTooltip{
+    visibility: visible;
+    opacity: 1;
+} */
+
+#galleryContent:has(> #gallery_items > .gallery_item > img:is([src="https://grundoscafe.b-cdn.net/items/isl_petpet16.gif"],[src="https://grundoscafe.b-cdn.net/items/vor_eyefish.gif"],[src="https://grundoscafe.b-cdn.net/items/pet_peadackle.gif"],[src="https://grundoscafe.b-cdn.net/items/isl_petpet1.gif"]):hover) > #galleryDesc > #galleryTooltip
+{
   
-  background-color:hotpink;
+    visibility: visible;
+    opacity: 1;
 }
 
-.gallery_item {
-  background-color:hotpink;
+#galleryContent:has(> #gallery_items > .gallery_item > img[src="https://grundoscafe.b-cdn.net/items/isl_petpet16.gif"]:hover) > #galleryDesc > #galleryTooltip:after{
+    content: 'This cute little critter and its likeness to bluemaroos has spawned many debates about whether all neopets evolved from life in the sea.'
 }
+
+#galleryContent:has(> #gallery_items > .gallery_item > img[src="https://grundoscafe.b-cdn.net/items/vor_eyefish.gif"]:hover) > #galleryDesc > #galleryTooltip:after{
+    content: 'Despite what some might say, the eye is quite delicious!'
+}
+
+#galleryContent:has(> #gallery_items > .gallery_item > img[src="https://grundoscafe.b-cdn.net/items/pet_peadackle.gif"]:hover) > #galleryDesc > #galleryTooltip:after{
+    content: 'Please don\' ask if it tastes like chicken or fish. Please don\'t eat our petpets.'
+}
+
+
