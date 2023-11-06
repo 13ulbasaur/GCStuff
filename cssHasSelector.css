@@ -1,0 +1,9 @@
+#galleryContent:has(> #gallery_items > .gallery_item > img:hover) > #galleryDesc > #galleryTooltip{
+  
+  visibility: visible;
+  opacity: 1;
+} 
+#galleryContent:has(> #gallery_items > .gallery_item > img[src="https://grundoscafe.b-cdn.net/items/isl_petpet1.gif"]:hover) > #galleryDesc > #galleryTooltip{
+  
+  background-color:hotpink;
+}
