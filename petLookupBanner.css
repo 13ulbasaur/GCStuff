@@ -1,0 +1,13 @@
+/* Remove the Pet Search Banner */
+#container {
+grid-template-rows: 44px min-content min-content minmax(0,1fr);
+grid-template-areas:
+        "top top aio"
+        "side event aio"
+        "side content aio"
+        "side footer aio";
+}
+#banner_img {
+display: none;
+}
+/* End Remove the Pet Search Banner */
