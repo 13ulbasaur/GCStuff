@@ -1,0 +1,186 @@
+
+/* Bubbles */
+.bubbles {
+    position: fixed;
+    bottom: 0;
+    z-index: 5;
+    right: 50px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.5;
+    width: 10px;
+    height: 10px;
+    animation: up 14s infinite
+    }
+.bubble-2 {
+    right: 350px;
+    animation: up 12s infinite
+    }
+.bubble-3 {
+    right: 750px;
+    opacity: 0.3;
+    animation: up 15s infinite
+    }
+.bubble-4 {
+    right: 1150px;
+    animation: up 16s infinite
+    }
+.bubble-5 {
+    right: 50px;
+    animation: up 15s infinite
+    }
+.bubble-6 {
+    right: 300px;
+    opacity: 0.3;
+    animation: up 13s infinite
+    }
+.bubble-7 {
+    right: 670px;
+    animation: up 14s infinite
+    }
+.bubble-8 {
+    right: 1050px;
+    opacity: 0.3;
+    animation: up 13s infinite
+    }
+.bubble-9 {
+    right: 540px;
+    animation: up 14s infinite
+    }
+.bubble-10 {
+    right: 660px;
+    opacity: 0.3;
+    animation: up 15s infinite
+    }
+.bubble-11 {
+    right: 540px;
+    animation: up 12s infinite
+    }
+.bubble-12 {
+    right: 410px;
+    opacity: 0.3;
+    animation: up 11s infinite
+    }
+.bubble-13 {
+    right: 842px;
+    animation: up 10s infinite
+    }
+.bubble-14 {
+    right: 1155px;
+    opacity: 0.3;
+    animation: up 14s infinite
+    }
+.bubble-15 {
+    right: 1311px;
+    animation: up 12s infinite
+    }
+.bubble-16 {
+    right: 1434px;
+    opacity: 0.3;
+    animation: up 11s infinite
+    }
+.bubble-17 {
+    right: 536px;
+    animation: up 15s infinite
+    }
+.bubble-18 {
+    right: 1532px;
+    opacity: 0.3;
+    animation: up 14s infinite
+    }
+.bubble-19 {
+    right: 1511px;
+    opacity: 0.3;
+    animation: up 14s infinite
+    }
+.bubble-20 {
+    right: 1453px;
+    opacity: 0.3;
+    animation: up 23s infinite
+    }
+.bubble-21 {
+    right: 1143px;
+    opacity: 0.3;
+    animation: up 6s infinite
+    }
+.bubble-22 {
+    right: 1123px;
+    opacity: 0.3;
+    animation: up 13s infinite
+    }
+.bubble-23 {
+    right: 323px;
+    opacity: 0.3;
+    animation: up 6s infinite
+    }
+.bubble-24 {
+    right: 653px;
+    opacity: 0.2;
+    animation: up 8s infinite
+    }
+.bubble-25 {
+    right: 433px;
+    opacity: 0.21;
+    animation: up 7s infinite
+    }
+.bubble-26 {
+    right: 233px;
+    opacity: 0.34;
+    animation: up 6s infinite
+    }
+.bubble-27 {
+    right: 444px;
+    opacity: 0.12;
+    animation: up 7s infinite
+    }
+.bubble-28 {
+    right: 323px;
+    opacity: 0.3;
+    animation: up 6s infinite
+    }
+.bubble-29 {
+    right: 653px;
+    opacity: 0.2;
+    animation: up 8s infinite
+    }
+.bubble-30 {
+    right: 433px;
+    opacity: 0.21;
+    animation: up 7s infinite
+    }
+.bubble-31 {
+    right: 233px;
+    opacity: 0.34;
+    animation: up 6s infinite
+    }
+.bubble-32 {
+    right: 444px;
+    opacity: 0.12;
+    animation: up 7s infinite
+    }
+.bubble-33 {
+    right: 1353px;
+    opacity: 0.2;
+    animation: up 8s infinite
+    }
+.bubble-34 {
+    right: 1433px;
+    opacity: 0.21;
+    animation: up 9s infinite
+    }
+.bubble-35 {
+    right: 1233px;
+    opacity: 0.34;
+    animation: up 7s infinite
+    }
+.bubble-36 {
+    right: 1444px;
+    opacity: 0.12;
+    animation: up 8s infinite
+    }
+/* Bubbles Animation */
+@keyframes up {
+    100% {
+        transform: translateY(-100vh);
+        }
+    }
