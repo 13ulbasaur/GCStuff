@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Rancho);
 /* Twiggies Sidebar Theme */
 #sb_side {
     background-image: url(https://i.imgur.com/g517aY7.png);
@@ -85,3 +86,97 @@
     outline: 1px #342275 solid
     }
 /* End Twiggies Sidebar Theme */
+
+/* Twiggies AIO */
+#aio_sidebar {
+    font: 24px Rancho !important;
+    color: #FFF !important;
+    text-align: center !important;
+    line-height: 20px !important;
+    text-transform: initial !important
+    }
+#aio_sidebar > div {
+    border: 2px solid #fbd1a5 !important;
+    outline: 1px solid #008c87 !important;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.7) !important;
+    color: #000 !important;
+    margin: 5px !important;
+    padding: 8px !important;
+    border-radius: 10px !important;
+    background-image: url(https://i.imgur.com/UBYds02.png) !important;
+    background-color: #007bd2 !important;
+    background-attachment: fixed !important;
+    background-size: aut !importanto;
+    background-repeat: repeat-x !important;
+    background-position: bottom left !important
+    }
+.aio-section-header {
+    color: #ffb400 !important;
+    text-shadow: 0 0 6px #000 !important;
+    font-size: 30px !important;
+    width: 100% !important;
+    display: inline-block !important;
+    border-radius: 99px !important;
+    background: rgba(255, 255, 255, 0.5) !important
+    }
+.aioTxt {
+    color: #ffb400 !important
+    }
+.aio-subtext {
+    color: #FFF !important;
+    text-shadow: 2px 2px 5px #000 !important;
+    font-size: 21px !important;
+    background-color: rgba(255, 255, 255, 0.35);
+    width: 100% !important;
+    border-radius: 15px !important
+    }
+.aio-section-header, .aio-subtext {
+    backdrop-filter: blur(3px) saturate(180%);
+    -webkit-backdrop-filter: blur(3px) saturate(180%) !important
+    }
+#aio_sidebar a {
+    color: #ffb400 !important;
+    text-shadow: 0 0 6px #000 !important
+    }
+#aio_sidebar a:hover {
+    color: #c78fff !important
+    }
+#aio_sidebar .aioImg {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 3px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-top: 8px !important
+    }
+#aio_sidebar .aioImg img {
+    border-radius: 99px !important;
+    border: 2px solid #fbd1a5 !important
+    }
+#aio_sidebar .aioImg img:hover {
+    border-radius: 99px !important;
+    border: 2px solid #008c87 !important
+    }
+#aio_sidebar > .quests > .aioImg > div {
+    width: 100% !important;
+    margin-bottom: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    overflow: hidden !important;
+    gap: 3px
+    }
+.aio-training-links {
+    display: block !important
+    }
+.aioImg img {
+    background-color: #fff !important
+    }
+.aio-training-links {
+    font-size: 24px Rancho !important
+    }
+.aioTxt {
+    display: flex !important;
+    flex-direction: column !important
+    }
+/* End Twiggies AIO */
