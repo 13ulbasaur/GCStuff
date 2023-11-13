@@ -1,0 +1,87 @@
+/* Twiggies Sidebar Theme */
+#sb_side {
+    background-image: url(https://i.imgur.com/g517aY7.png);
+    height: 947px;
+    width: 128px;
+    background-attachment: fixed;
+    background-position: bottom left;
+    border: solid #fbd1a5;
+    border-width: 0 2px 2px 0;
+    border-radius: 0 0 15px 0;
+    box-shadow: 2px 2px 0 -1px rgb(0, 140, 135);
+    background-color: #007bd2;
+    background-repeat: no-repeat
+    }
+#sb_edge {
+    background-image: url(https://sig.grumpybumpers.com/host/twiggies_neopets.gif), url(https://i.imgur.com/g517aY7.png) !important;
+    height: 242px !important;
+    margin-top: auto !important;
+    background-position: bottom right, bottom left !important;
+    background-attachment: no-repeat, repeat !important;
+    background-attachment: local, fixed !important;
+    width: 128px !important;
+    border-radius: 0 0 13px 0 !important
+    }
+#sb_createpet, #sb_petcentral, #sb_explore, #sb_games, #sb_neomail, #sb_shops, #sb_boards, #sb_news, #sb_stuff, #sb_help, #sb_login, #sb_logout {
+    background-image: url(https://i.imgur.com/JSmVvql.png);
+    width: 130px
+    }
+#sb_createpet:hover {
+    background-position: 130px 0
+    }
+#sb_petcentral:hover {
+    background-position: 130px -53px
+    }
+#sb_explore:hover {
+    background-position: 130px -106px
+    }
+#sb_games:hover {
+    background-position: 130px -138px
+    }
+#sb_neomail:hover {
+    background-position: 130px -170px
+    }
+#sb_shops:hover {
+    background-position: 130px -202px
+    }
+#sb_boards:hover {
+    background-position: 130px -234px
+    }
+#sb_news:hover {
+    background-position: 130px -266px
+    }
+#sb_stuff:hover {
+    background-position: 130px -300px
+    }
+#sb_help:hover {
+    background-position: 130px -334px
+    }
+#sb_login:hover {
+    background-position: 130px -369px
+    }
+#sb_logout:hover {
+    background-position: 130px -399px
+    }
+.nst {
+    background-color: rgba(76, 255, 104, 0.7)
+    }
+#sb_top {
+    background-image: url(https://i.imgur.com/eb0YTBk.png), url(https://i.imgur.com/g517aY7.png);
+    background-attachment: local, fixed;
+    background-position: top left, bottom left;
+    border-radius: 0 0 15px 0;
+    border: #fbd1a5 solid;
+    border-width: 0 2px 2px 0;
+    background-position-y: -3px, bottom;
+    box-shadow: 1px 1px 0 0 rgb(0, 140, 135);
+    background-color: #007bd2;
+    background-repeat: no-repeat
+    }
+#userinfo a, #sb_lang a, .sb-custom-css {
+    color: #002d99 !important;
+    text-shadow: -1px -1px 2px white, 1px -1px 2px white, -1px 1px 2px white, 1px 1px 2px white !important
+    }
+#sb_banner > a > img {
+    outline: 1px #342275 solid
+    }
+/* End Twiggies Sidebar Theme */
