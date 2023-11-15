@@ -180,3 +180,6 @@
     flex-direction: column !important
     }
 /* End Twiggies AIO */
+#aio_sidebar {
+    display: revert !important
+    }
