@@ -21,7 +21,8 @@
     background-attachment: no-repeat, repeat !important;
     background-attachment: local, fixed !important;
     width: 128px !important;
-    border-radius: 0 0 13px 0 !important
+    border-radius: 0 0 13px 0 !important;
+    display:block !important;
     }
 #sb_createpet, #sb_petcentral, #sb_explore, #sb_games, #sb_neomail, #sb_shops, #sb_boards, #sb_news, #sb_stuff, #sb_help, #sb_login, #sb_logout {
     background-image: url(https://i.imgur.com/JSmVvql.png);
