@@ -1,2 +1,2 @@
 console.log("test")
-  console.log(blacklist)
+  console.log("test2")
