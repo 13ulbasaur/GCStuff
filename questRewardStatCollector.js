@@ -1,4 +1,3 @@
-
 let formLink = '';
 let returnButton = null;
 let submitDiv = document.createElement("div");
@@ -31,7 +30,7 @@ function taeliaRewards() {
     rewardText = rewardText.replace(/, and \d*,?\d+ Neopoints!!/g,'');
     console.log(`Text 2: ${rewardText}`)
 
-    let snowBallItem = rewardText.match(/((?=, ).+ Snowball)|(, Snow \w*ball)/gi)[0].trim();
+    let snowBallItem = rewardText.match(/((?=, ).+ Snowball)|(, Snow \w*ball)|(, Frozen Pile of Dung)/gi)[0].trim();
     //Remove the , from the start if it's there.
     if (snowBallItem.startsWith(', ')) {
         snowBallItem = snowBallItem.slice(2).trim();
@@ -39,7 +38,7 @@ function taeliaRewards() {
     snowBallItem = encodeURIComponent(snowBallItem);
     console.log(`Snowball: ${snowBallItem}`)
     //Now get rid of the snowball section... Hoping it doesn't add a snowball that has a ', ' in it. Or a snowball that doesn't end in snowball.
-    rewardText = rewardText.replace(/((?=, ).+ Snowball)|(, Snow \w*ball)/gi,'')
+    rewardText = rewardText.replace(/((?=, ).+ Snowball)|(, Snow \w*ball)|(, Frozen Pile of Dung)/gi,'')
     console.log(`Text 3: ${rewardText}`)
 
     //Now for the last item. We just need to remove the beginning part... and we're good!
