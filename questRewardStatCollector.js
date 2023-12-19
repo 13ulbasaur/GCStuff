@@ -1,6 +1,6 @@
 function sendQuestStats(giveUsername) 
 {
-    console.log(`Give Uesrname: ${giveUsername}`;
+    console.log(`Give Uesrname: ${giveUsername})`;
     let formLink = '';
     let returnButton = null;
     let submitDiv = document.createElement("div");
