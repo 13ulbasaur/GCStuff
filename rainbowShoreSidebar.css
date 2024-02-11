@@ -1,5 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Rancho);
 /* Twiggies Sidebar Theme */
+#sb_top, #sb_side, .neomail-icons a img, #back_next img[alt="Next"], #page_notif, #howlatthe, #sb_banner a, #sb_top a, #sb_lang a, #latest img, #newsflash > img {
+    filter: none !important
+    }
 #sb_side {
     background-image: url(https://i.imgur.com/g517aY7.png);
     height: 947px;
