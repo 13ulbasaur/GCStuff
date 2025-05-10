@@ -16,6 +16,7 @@
     background-color: #007bd2;
     background-repeat: no-repeat;
     transform: revert;
+    padding-bottom: 0px;
     }
 #sb_side::after {
   content:none !important;
