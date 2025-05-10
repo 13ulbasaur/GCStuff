@@ -14,7 +14,8 @@
     border-radius: 0 0 15px 0;
     box-shadow: 2px 2px 0 -1px rgb(0, 140, 135);
     background-color: #007bd2;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    transform: revert;
     }
 #sb_side::after {
   content:none !important;
