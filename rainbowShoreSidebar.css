@@ -84,7 +84,8 @@
     background-position-y: -3px, bottom;
     box-shadow: 1px 1px 0 0 rgb(0, 140, 135);
     background-color: #007bd2;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    background-size: auto;
     }
 #userinfo a, #sb_lang a, .sb-custom-css {
     color: #002d99 !important;
