@@ -3,6 +3,15 @@
 #sb_top, #sb_side, .neomail-icons a img, #back_next img[alt="Next"], #page_notif, #howlatthe, #sb_banner a, #sb_top a, #sb_lang a, #latest img, #newsflash > img {
     filter: none !important
     }
+@media (hover:hover) {
+    #sb_side {
+        transform: revert;
+        padding-bottom: 0px;
+    }    
+    #sb_top {
+        background-size: auto;
+    }
+}
 #sb_side {
     background-image: url(https://i.imgur.com/g517aY7.png);
     height: 947px;
@@ -15,8 +24,6 @@
     box-shadow: 2px 2px 0 -1px rgb(0, 140, 135);
     background-color: #007bd2;
     background-repeat: no-repeat;
-    transform: revert;
-    padding-bottom: 0px;
     }
 #sb_side::after {
   content:none !important;
@@ -87,7 +94,6 @@
     box-shadow: 1px 1px 0 0 rgb(0, 140, 135);
     background-color: #007bd2;
     background-repeat: no-repeat;
-    background-size: auto;
     }
 #userinfo a, #sb_lang a, .sb-custom-css {
     color: #002d99 !important;
