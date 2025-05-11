@@ -3,15 +3,28 @@
 #sb_top, #sb_side, .neomail-icons a img, #back_next img[alt="Next"], #page_notif, #howlatthe, #sb_banner a, #sb_top a, #sb_lang a, #latest img, #newsflash > img {
     filter: none !important
     }
-@media (hover:hover) {
+@media (hover: hover) {
     #sb_side {
-        transform: revert;
-        padding-bottom: 0px;
-    }    
+        transform: revert !important;
+        padding-bottom: 0 !important
+        }
     #sb_top {
-        background-size: auto;
+        background-size: auto !important;
+        background-image: url(https://i.imgur.com/eb0YTBk.png), url(https://i.imgur.com/g517aY7.png) !important;
+        background-attachment: local, fixed !important;
+        background-position: top left, bottom left !important
+        }
     }
-}
+@media (hover: none) {
+    #sb_top {
+        background-image: url(https://i.imgur.com/g517aY7.png) !important;
+        background-attachment: fixed !important;
+        background-position: bottom left !important
+        }
+    #top-bar-logo {
+        content: url(https://i.imgur.com/eb0YTBk.png)
+        }
+    }
 #sb_side {
     background-image: url(https://i.imgur.com/g517aY7.png);
     height: 947px;
@@ -84,9 +97,6 @@
     background-color: rgba(76, 255, 104, 0.7)
     }
 #sb_top {
-    background-image: url(https://i.imgur.com/eb0YTBk.png), url(https://i.imgur.com/g517aY7.png);
-    background-attachment: local, fixed;
-    background-position: top left, bottom left;
     border-radius: 0 0 15px 0;
     border: #fbd1a5 solid;
     border-width: 0 2px 2px 0;
